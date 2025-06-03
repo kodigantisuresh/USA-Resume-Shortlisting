@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Shortlisting - RS_PROJECT</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <style>
+        /* Ensure the entire page is scrollable */
+        html, body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+            flex: 1;
+            padding-bottom: 20px; /* Add space so footer doesn't overlap content */
+        }
+        /* Override footer to make it part of the page flow */
+        footer {
+            padding: 0.5em; /* Reduced from 1em to decrease height, as per previous request */
+            position: static; /* Remove fixed positioning so footer scrolls with page */
+            width: 100%;
+        }
+        /* Ensure table wrapper allows scrolling and headers are sticky */
+        .table-wrapper {
+            max-height: 400px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+        .results-table th {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            background-color: #34495e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}" style="display: flex; align-items: center; gap: 5px;">Home 🏠</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Resume Shortlisting Process</h1>
+    </header>
+    <div class="container">
+        <div class="section" id="process">
+            <h2>Enter Job ID</h2>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="{{ category }}">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            <form method="POST" action="{{ url_for('process') }}" id="job-id-form">
+                <div class="form-group">
+                    <label>Job ID:</label>
+                    <input type="text" name="job_id" placeholder="e.g., VA-12345" required>
+                    <button type="submit">Process Resumes</button>
+                </div>
+            </form>
+            <div id="loading-indicator" style="display: none;">
+                <div class="loader"></div>
+                <p id="loading-message">Processing...</p>
+            </div>
+
+            {% if job_role is not none and job_role != "N/A" %}
+                <h3>Job Role:</h3>
+                <p>{{ job_role }}</p>
+            {% endif %}
+
+            {% if subject_skills is not none and subject_skills|length > 0 %}
+                <h3>Subject Skills:</h3>
+                <p>{{ subject_skills|join(', ') }}</p>
+            {% endif %}
+            {% if table_data is not none and columns is not none and table_data|length > 0 and columns|length > 0 %}
+                <h3>Candidate Details (Sorted by Rank):</h3>
+                <div class="table-controls">
+                    <input type="number" id="rank-search" placeholder="Search by Rank" oninput="filterTableByRank()">
+                    <button id="download-csv" onclick="downloadCSV()">Download as CSV 📥</button>
+                </div>
+                <div class="table-wrapper">
+                    <table class="results-table" id="results-table">
+                        <thead>
+                            <tr>
+                                {% for col in columns %}
+                                    <th>{{ col }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody id="table-body">
+                            {% for row in table_data %}
+                                <tr>
+                                    {% for col in columns %}
+                                        <td>{{ row[col] }}</td>
+                                    {% endfor %}
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% else %}
+                <p>No candidate details to display.</p>
+            {% endif %}
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 RS_PROJECT. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Loading indicator messages
+        const messages = [
+            "Processing Job ID...",
+            "Clearing previous resumes...",
+            "Accessing Gmail...",
+            "Filtering emails by Job ID...",
+            "Downloading resumes from attachments...",
+            "Converting resumes (.pdf & .docx) into text (.txt)...",
+            "Extracting the details or columns..."
+        ];
+
+        // Handle form submission to show loading indicator
+        document.getElementById('job-id-form').addEventListener('submit', function() {
+            const loadingIndicator = document.getElementById('loading-indicator');
+            const loadingMessage = document.getElementById('loading-message');
+            loadingIndicator.style.display = 'block';
+
+            // Cycle through messages
+            let messageIndex = 0;
+            loadingMessage.textContent = messages[messageIndex];
+            const interval = setInterval(() => {
+                messageIndex = (messageIndex + 1) % messages.length;
+                loadingMessage.textContent = messages[messageIndex];
+            }, 1500); // Change message every 1.5 seconds
+
+            // Store the interval in sessionStorage to clean it up later
+            sessionStorage.setItem('loadingInterval', interval);
+        });
+
+        // On page load, hide the loading indicator if results are present
+        window.addEventListener('load', function() {
+            const loadingIndicator = document.getElementById('loading-indicator');
+            const interval = sessionStorage.getItem('loadingInterval');
+            if (interval) {
+                clearInterval(interval);
+                sessionStorage.removeItem('loadingInterval');
+            }
+            {% if table_data is not none and table_data|length > 0 or subject_skills is not none and subject_skills|length > 0 %}
+                loadingIndicator.style.display = 'none';
+            {% endif %}
+        });
+
+        // Only define these functions if table_data exists and is not empty
+        {% if table_data is not none and table_data|length > 0 %}
+            const columns = {{ columns|tojson | safe }};
+            const tableData = {{ table_data|tojson | safe }};
+            const subjectSkills = {{ subject_skills|tojson | safe }};
+            const jobRole = {{ job_role|tojson | safe }};
+
+            // Store the original table rows for downloading the entire table
+            const originalRows = tableData.map(row => {
+                return columns.map(col => {
+                    let value = row[col];
+                    // Escape commas and quotes in the value
+                    if (typeof value === 'string') {
+                        value = value.replace(/"/g, '""');
+                        if (value.includes(',')) {
+                            value = `"${value}"`;
+                        }
+                    }
+                    return value;
+                });
+            });
+
+            // Filter table by rank
+            function filterTableByRank() {
+                const rankInput = document.getElementById('rank-search').value.trim();
+                const tableBody = document.getElementById('table-body');
+                const rows = tableBody.getElementsByTagName('tr');
+
+                for (let i = 0; i < rows.length; i++) {
+                    const rankCell = rows[i].getElementsByTagName('td')[0]; // Rank is the first column
+                    if (rankCell) {
+                        const rankValue = rankCell.textContent || rankCell.innerText;
+                        if (rankInput === '' || rankValue === rankInput) {
+                            rows[i].style.display = '';
+                        } else {
+                            rows[i].style.display = 'none';
+                        }
+                    }
+                }
+            }
+
+            // Download the entire table as CSV, including job role and subject skills
+            function downloadCSV() {
+                let csvContent = '';
+
+                // Add job role section
+                csvContent += 'Job Role\n';
+                csvContent += (jobRole && jobRole !== "N/A" ? jobRole : 'None') + '\n\n';
+
+                // Add subject skills section if available
+                if (subjectSkills && subjectSkills.length > 0) {
+                    csvContent += 'Subject Skills\n';
+                    csvContent += subjectSkills.join(', ') + '\n\n';
+                } else {
+                    csvContent += 'Subject Skills\n';
+                    csvContent += 'None\n\n';
+                }
+
+                // Add table data section
+                csvContent += 'Candidate Details\n';
+                csvContent += columns.join(',') + '\n';
+                originalRows.forEach(row => {
+                    csvContent += row.join(',') + '\n';
+                });
+
+                // Create a blob and trigger download
+                const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+                const link = document.createElement('a');
+                const url = URL.createObjectURL(blob);
+                link.setAttribute('href', url);
+                link.setAttribute('download', 'candidate_details_with_skills.csv');
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+        {% endif %}
+    </script>
+</body>
+</html>

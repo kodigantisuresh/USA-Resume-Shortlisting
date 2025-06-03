@@ -1,0 +1,155 @@
+Jagadeesh Korukondi
+Skill Set
+Designed and reviewed security architecture to assess current security controls and identify potential security flaws at an early stage, enhancing overall security posture.
+Conducted security risk assessments of applications and APIs based on their architecture, design, and data flow across various components, utilizing 7 NIST-mandated security domains, ensuring comprehensive security evaluations.
+Performed manual penetration testing for all web applications to identify false positives and vulnerabilities using tools like Burp Suite Pro, OWASP ZAP Proxy, SQL Map, and Fiddler, improving application security by addressing detected issues.
+Executed network and server scans using tools like Nessus, Qualys Guard, and Nmap to detect vulnerabilities and enhance security measures across systems and networks.
+Conducted Dynamic Application Security Testing (DAST) using tools like HP Web Inspect, IBM AppScan Standard, SSL Scan, and Acunetix360, analyzing false positives to ensure accurate vulnerability detection and minimize unnecessary remediation efforts.
+Analyzed SAST, OSA, and DAST reports to identify security-related issues, communicating findings with the application team to facilitate timely remediation and plug security loopholes.
+Administered server management, Active Directory, VMWare, data center management, application security, and network security to provide comprehensive technical support and ensure system reliability.
+Managed end-to-end data center operations for multiple clients across geographies to ensure seamless operations and maintain high availability of services.
+Implemented Active Directory, server virtualization, hardening, and application virtualization to enhance system performance and secure environments against potential threats.
+Applied knowledge of network concepts, security protocols, identity and access management, firewalls, web application firewalls, routers, switches, and hubs to strengthen network security and mitigate potential risks.
+Utilized Microsoft tools and applications like SCCM, SCOM, AD tools, MDT, and BDT to manage infrastructure and streamline system administration.
+Leveraged experience with industry-standard frameworks such as NIST 800, PCI DSS, ISO27001/2, OWASP Top 10, and SANS Top 25 to develop robust security practices and align with compliance requirements.
+Built a vulnerability management program across geographical locations using Qualys and Wiz for cloud and on-premises systems to identify and remediate vulnerabilities effectively.
+Identified security gaps, design flaws, and loopholes in application and API architecture and network architecture, providing mitigation strategies and solutions to enhance security.
+Configured cloud security services like IAM, CloudTrail, Config, GuardDuty, and Security Hub for threat detection and security monitoring to protect cloud environments and detect potential threats.
+Implemented Splunk for searching and reporting modules, knowledge objects, administration, dashboards, clustering, and forwarder management to enhance security monitoring and data analysis capabilities.
+Provided primary support for the endpoint security software stack using CrowdStrike Falcon and created USB blocking rules by porting over to CrowdStrike firewall and USB blocking modules, enhancing endpoint security.
+Developed connectors from various vulnerability tools using the Axonius solution to manage and secure devices, users, cloud assets, software, and SaaS apps, streamlining security operations.
+Developed and executed a comprehensive vulnerability management strategy aligned with business objectives to ensure proactive risk management and mitigate security threats.
+Established vulnerability risk assessment and prioritization processes, ensuring all vulnerability assessments and pen testing are completed by the team within SLA to maintain security compliance.
+Designed application, system, and network security requirements to ensure robust security architectures and protect against potential threats.
+Managed Linux and Windows operating systems, business continuity, and disaster recovery plans to ensure operational resilience and minimize downtime.
+Utilized Qualys FIM (File Integrity Monitoring) for PCI-critical systems to monitor integrity violations and compliance across IT systems in real-time, enhancing security posture.
+Applied knowledge of project management tools like ServiceNow CRM and Jira, as well as tools like Vormetric and CipherTrust Manager, to manage projects and ensure efficient workflow.
+Designed, developed, and deployed Docker and Kubernetes containerized applications and microservices to enhance scalability and optimize resource utilization.
+Implemented Single Sign-On (SSO), Multi-Factor Authentication (MFA), and other advanced authentication mechanisms, improving security and enhancing user convenience through seamless authentication processes.
+Managed identity lifecycle processes including provisioning, de-provisioning, and ongoing management of user identities, ensuring the accuracy and integrity of user access across all systems.
+Ensured compliance with regulatory standards such as GDPR, HIPAA, and SOX through robust IAM controls, reducing the risk of non-compliance and potential fines by 25%.
+Designed and implemented identity management solutions to ensure secure and streamlined user access, improving system efficiency and reducing unauthorized access incidents by 20%.
+Investigated security-related incidents, implementing incident response and risk assessment strategies to alert on unauthorized access and prevent security breaches.
+Managed the development of the Vulnerability Management and Security/Compliance program using Qualys VM/PC to ensure effective vulnerability management and achieve compliance.
+Education:
+Masters in CIS from Bellevue University, Omaha (Nebraska)
+Bachelor of Technology in Computer Science & Engineering. 2010
+Certifications:
+Certified Ethical Hacker version 11                                                    Certification number: ECC7283490156
+Microsoft Certified: Azure Security Engineer Associate                Certification number:H605-3371
+PROFESSIONAL WORK EXPERIENCE
+Eli Lilly and Company, Indianapolis, IN 					Jan 2024 - Present
+Application Security VRM
+Responsibilities:
+Performed DAST scans for web applications (cloud and on-premises) using Qualys and Acunetix to ensure the Confidentiality, Integrity, and Availability (CIA) of data, resulting in the identification and remediation of critical vulnerabilities.
+Conducted false positive analysis for reported vulnerabilities using Burp Suite to ensure accurate vulnerability management, reducing unnecessary remediation efforts and enhancing efficiency.
+Verified the security posture of all web applications against OWASP Top 10 vulnerabilities to strengthen overall application security, reducing potential attack surfaces and minimizing risks.
+Assessed and determined the severity and criticality of application vulnerabilities to meet legal requirements for Eli Lilly applications, ensuring compliance and mitigating risks by remediating SSL vulnerabilities through certificate procurement.
+Configured and administered Microsoft Defender Advanced Threat Protection suite to enhance endpoint security, preventing potential threats and improving overall security posture.
+Managed Microsoft Defender exclusions for endpoints and servers, and created GPOs to push Microsoft Defender policies to endpoints and servers, improving security posture and ensuring consistent policy enforcement.
+Implemented web filtering, application control, and antivirus features on Fortinet devices to prevent malicious activity and reduce web-based attacks by 30%.
+Architected secure network infrastructures using Fortinet’s firewall and security appliance suite, increasing defense against DDOS attacks and advanced persistent threats by 40%.
+Ensured the protection of sensitive data through encryption, IPS, and firewall solutions provided by Fortinet, mitigating the risk of data breaches and strengthening data integrity.
+Managed AWS KMS to safeguard encryption keys used in data protection, ensuring secure key management and minimizing the risk of data breaches.
+Implemented and managed PKI systems for secure communication and authentication to increase data protection and ensure secure access to systems.
+Conducted security risk assessments and vulnerability scans to identify potential risks, developed and implemented strategies to mitigate security threats and vulnerabilities, enhancing overall security posture.
+Configured and implemented the latest data encryption standards for data at rest and in transit for web-based applications to enhance security, reducing potential data breaches by 30%.
+Ensured all keys in an application followed proper key management and key rotation standards by securing them in key vaults like CyberArk, HashiCorp Vault, and Azure Key Vault, minimizing the risk of unauthorized access.
+Integrated encryption mechanisms into new and existing systems and applications to ensure the protection of sensitive data at rest and in transit, resulting in a more secure data flow.
+Conducted vulnerability assessments to identify potential weaknesses in encryption systems, ensuring regular key rotation and protection mechanisms for data in transit, enhancing overall encryption security.
+Configured Microsoft Defender Extended Detection and Response (XDR) alert settings for endpoint detection and response to improve threat detection and response times, increasing the overall effectiveness of security measures.
+Humana Inc, Louisville, KY 							Mar 2021 – Dec 2023
+Application Cyber Security Architect
+Conducted security risk assessments of applications and APIs based on their architecture, design, and data flow among various application components, evaluating them across 7 NIST-mandated security domains and mitigating potential threats.
+Identified security risks and issues within applications through detailed security risk assessments, producing comprehensive reports that outlined identified vulnerabilities and necessary remediation, enabling application teams to effectively address security risks and enhancing overall application security.
+Identified security gaps and loopholes in the application low-level design and network architecture designs, reporting design flaws with mitigations to the development team, improving security robustness.
+Analyzed SAST, OSA, and DAST reports to identify security-related issues, sharing these issues with the application team to address them and plug any security loopholes, strengthening the security posture.
+Performed web application architecture reviews to assess the current security controls, identifying potential security flaws at an early stage, preventing future vulnerabilities.
+Conducted end-to-end application security risk assessments with application decomposition, identifying weak security controls, enhancing the overall security framework.
+Played an integral role in passing audits with banks on a quarterly basis by implementing PCI External & Internal Scanning, ensuring compliance with financial regulations.
+Prioritized security remediation efforts based on the current system state by employing the CVSS/EPSS score systems, optimizing the allocation of resources to address the most critical vulnerabilities.
+Deployed cloud agents across Windows & Linux environments to identify vulnerabilities across the organization, collaborating with application owners to successfully remediate identified risks.
+Implemented policy compliance for operating systems and network devices using Qualys, helping the organization assess its environment and compare compliance posture against multiple industry requirements like PCI 4.0, GDPR, and HIPAA.
+Implemented Qualys FIM (File Integrity Monitoring) for PCI Critical Systems to monitor integrity violations and compliance across IT systems in real time with a single agent and dashboard, ensuring ongoing compliance.
+Provided primary support for the endpoint security software stack using CrowdStrike, creating USB blocking rules and porting them over to CrowdStrike firewall and USB blocking modules, enhancing endpoint security.
+Built connectors from various vulnerability tools to manage and secure devices, users, cloud assets, software, and SaaS apps using the Axonius solution, streamlining asset management and security operations.
+Conducted penetration tests and vulnerability assessments to identify security weaknesses in applications, developed and executed testing plans, and created payloads to simulate attacks, strengthening application defenses.
+Implemented and managed secure network protocols and technologies, configured and managed firewalls, intrusion detection/prevention systems, and VPN, enhancing network security and preventing unauthorized access.
+Conducted threat modeling and security risk assessments for network, API, and application security architectures, identifying potential threats and recommending mitigation strategies to reduce risks.
+Utilized SIEM (Security Information and Event Management) systems to analyze and correlate security event data, improving threat detection and response capabilities.
+Monitored and analyzed security event logs, network traffic, and system performance to identify potential security threats, responding promptly to mitigate risks.
+Developed and implemented custom security plug-ins and integrations for CI/CD tools, enhancing the security of the software development pipeline.
+Integrated security practices and tools into DevOps processes and pipelines, ensuring that security is built into the development lifecycle, reducing vulnerabilities in the deployed code.
+DuPont, Wilmington, DE								July 2017- Feb 2021
+Application Security Specialist
+Performed dynamic application security scans for web applications (Azure & On-Premises) using automated testing tools to ensure the Confidentiality, Integrity, and Availability (CIA) of data, securing application environments.
+Assisted in implementing imperva web application firewall for DuPont & Corteva web servers to protect against application layer attacks such as SQL Injection, Cross-Site Scripting, File Inclusion, and Cross-Site Request Forgery, enhancing application security.
+Executed command line backup and restore of Active Directory infrastructure, scheduling remote backups and taking AD dumps, ensuring data availability and integrity.
+Developed and implemented secure onboarding processes for new cloud accounts, users, and resources across AWS, Azure, and other cloud platforms, ensuring compliance with federal regulations and security standards.
+Provisioned and configured cloud security services like Identity and Access Management (IAM), logging, configuration management, threat detection, and security monitoring for continuous protection, enhancing cloud security posture.
+Implemented and enforced security controls to protect sensitive data and systems, reducing the risk of unauthorized access and data breaches.
+Installed, configured, and administered web servers, recycling the IIS application pool, binding port numbers for the application web servers, and configuring URL redirection, optimizing server performance and reliability.
+Configured dynamic IP restriction for applications in the IIS web server to prevent DOS attacks, enhancing application resilience.
+Monitored security events and incidents in real-time using SIEM (Security Information and Event Management) tools, analyzing alerts to identify potential threats and responding promptly to mitigate security risks, reducing incident response times by 25%.
+Managed the daily operations of the SOC, overseeing incident response, monitoring, and threat analysis, ensuring continuous 24/7 security coverage and minimizing downtime due to potential threats.
+Configured and optimized security monitoring tools and SIEM systems, enhancing detection and alerting mechanisms for suspicious activity, increasing detection rates by 35%.
+Integrated SIEM with other security tools such as firewalls, intrusion detection systems (IDS), and endpoint protection platforms, enhancing the overall visibility into security events and strengthening incident detection capabilities.
+Conducted penetration testing by applying payloads using Burp Suite and Zap proxy tools to identify false positives and detect vulnerabilities in applications, improving security accuracy and reducing risks.
+Determined the severity and criticality of application vulnerabilities to meet the legal requirements of the Dow DuPont merger, remediating SSL vulnerabilities by procuring certificates for applications, ensuring compliance and secure communications.
+Analyzed and processed vulnerabilities that were not remediated, raised a security variance, and updated details in the DuPont DISO database, ensuring accurate vulnerability management.
+Performed due diligence on all web applications as per DuPont Security Standards, verifying adherence to security requirements and enhancing overall security posture.
+Verified the security posture of all web applications, including their vulnerabilities, against OWASP TOP 10 vulnerabilities, identifying and mitigating potential security risks.
+Collaborated with the firewall team to enable or disable ports to remediate application vulnerabilities, ensuring secure network configurations.
+Performed security risk assessments for non-integrated applications to verify the security posture of each application, identifying gaps and recommending improvements.
+Prepared the stage environment for integration testing, including activities like code merge, stage build, sanity checking, asset scoping, user scoping, and loading baseline files, ensuring a stable and secure testing environment.
+Performed DOW DuPont file share migration for file shares, ensuring data integrity and continuity during the transition.
+Conducted asset on boarding for connected and disconnected MA2 assets in the MA2 stage environment to ensure assets were on boarded into the DuPont IAM application, enhancing asset management.
+Migrated assets from My Access 1 (DuPont SUN IDM IAM site) to My Access 2 (DuPont IAM) in SailPoint IIQ, improving identity and access management capabilities.
+Prioritized security remediation efforts based on the current system state by employing the CVSS score system, optimizing resource allocation and reducing risks.
+Successfully executed Qualys File Integrity Monitoring for PCI applications on tagged servers, configuring rules to align with business requirements and incorporating alert mechanisms for timely notifications, enhancing compliance and monitoring capabilities.
+Cox Enterprises, Omaha, NE 							Jan 2016- June 2017
+Cyber Security Engineer
+Performed DAST and SAST scans using automated testing tools, conducted false positive analysis, and provided reports with remediation to customers, ensuring accurate vulnerability identification and facilitating timely security improvements.
+Prepared proof of concepts (POCs) for regularly generated vulnerabilities to remediate them faster, accelerating the vulnerability management process and enhancing overall security.
+Improved security and reduced vulnerabilities by identifying and mitigating potential risks associated with systems and applications, enhancing the organization’s security posture.
+Minimized gaps in the vulnerability management process and recommended areas for improvement, optimizing security operations and strengthening defenses against potential threats.
+Performed network and server scans using Qualys WAS, identifying vulnerabilities and helping to maintain a secure and compliant IT environment.
+JDA Software Pvt Ltd, Hyderabad, India 						Dec 2013- June 2015
+Application Security Analyst
+Installed and configured Active Directory and its features for multiple clients, ensuring seamless integration and optimal performance across different environments.
+Installed and administered Windows Server 2008 and 2012 for clients, configuring applications and databases as required to meet business needs and enhance operational efficiency.
+Identified security flaws such as Injection, XSS, Insecure Direct Object Reference, Security Misconfiguration, Sensitive Data Exposure, Functional Level Access Control, CSRF, and Unvalidated Redirects, improving application security and reducing potential risks.
+Explained security requirements to the design team during the initial stages of the SDLC to minimize rework efforts on issues identified during penetration tests, increasing development efficiency and reducing costs.
+Prepared proof of concepts (POCs) for security issues identified in assessments and conducted sessions for the development team on secure coding and remediation solutions for critical and high-severity issues, enhancing the team's security awareness and reducing vulnerabilities.
+Centralized disaster recovery (DR) and business continuity planning (BCP) for critical servers and conducted DR BCP tests, ensuring system resilience and minimizing downtime during incidents.
+Conducted gray box web application testing in accordance with OWASP Top 10 and SANS 25 to identify critical vulnerabilities (such as CSRF, XSS, SQL Injection, and Privilege Escalation) and recommended remediation, improving application security.
+Identified vulnerabilities in session management, input validations, output encoding, logging, exceptions, cookie attributes, encryption, and privilege escalations, adhering to OWASP, NIST, and OSSTMM testing standards to enhance security posture.
+Created risk assessments based on CIS Benchmarks and CVSS scoring methodology and provided remediation guidance to court and national program offices, ensuring compliance and mitigating security risks.
+Troubleshot basic network issues and collaborated with the network team to resolve problems, improving network stability and reducing downtime.
+Applied secure SDLC practices and conducted source code analysis (both manual and using tools) on web-based applications, identifying and remediating security vulnerabilities to ensure robust application security.
+ICIC Lombard Pvt Ltd, Hyderabad, India						Feb 2011 – Nov2013
+Security Engineer
+Conducted security scoping questionnaires and gathered information to identify potential risks and develop appropriate security measures.
+Collaborated with the development team to understand the application landscape and formulated test plans, ensuring comprehensive security testing and enhancing application security.
+Performed Dynamic Application Security Testing (DAST) of web applications, thick clients, and web services to identify vulnerabilities, improving security posture and protecting against potential attacks.
+Defined test scripts tailored to application platforms to ensure accurate and efficient security testing, enhancing the detection of potential vulnerabilities.
+Conducted secure code reviews using automated tools and manual methods and prepared detailed security reports, identifying vulnerabilities and providing actionable remediation steps.
+Generated custom documents and PDF files to test the existence of vulnerabilities, validating security controls and enhancing security measures.
+Provided OWASP Top Ten training to QA Engineers and Software Developers, increasing their knowledge of common security vulnerabilities and improving their ability to write secure code.
+Instructed the application team in secure programming during all phases of the application lifecycle (SDLC) based on OWASP standards, ensuring security best practices are integrated into the development process.
+Provided remediation support for security vulnerabilities (such as XSS, CSRF, SQLi, and DDOS) to Java, .NET, PHP, and Ruby developers, facilitating secure coding practices and reducing potential risks.
+Reviewed and analyzed third-party web application penetration test findings before implementation, ensuring that vulnerabilities are properly addressed and minimizing security risks.
+Imaged systems and troubleshot issues using BDD and MDT tools, ensuring system integrity and reducing downtime.
+Troubleshot LAN and application issues on systems and laptops, restoring functionality and enhancing user experience.
+Installed, configured, and troubleshot the PointSec encryption tool on laptops to ensure data security and prevent unauthorized access.
+Hardened desktops and laptops according to standards to reduce vulnerabilities and increase overall system security.
+Ensured confidentiality, integrity, and availability of systems through periodic security testing of internet-facing and internal applications via black box and gray box assessments, identifying potential threats and enhancing security measures.
+Performed black box penetration testing on internet and intranet-facing applications as part of a periodic testing schedule, identifying vulnerabilities and enhancing application security.
+Worked with developers, QA Engineers, Project Managers, and Business Owners to educate them on and implement industry best practices for remediating software security vulnerabilities, improving overall security posture.
+Created custom injection and scripting attacks/exploits for application security testing to identify vulnerabilities and enhance the robustness of applications.
+Pegasys Information technology, Hyderabad, India					June 2010 – Jan2011
+Application Security Engineer
+Created security risk assessment reports with remediation strategies for identified vulnerabilities in applications, enabling effective risk management and improving overall security posture.
+Performed penetration testing for applications using organizationally provided payloads to identify vulnerabilities, enhancing application security by exposing potential weaknesses.
+Collaborated with the development team to remediate vulnerabilities in applications, ensuring timely resolution of security issues and minimizing potential attack vectors.
+Conducted security scans based on OWASP Top 10 standards to identify and address common vulnerabilities, strengthening application defenses and reducing the risk of exploitation.

@@ -1,0 +1,299 @@
+Jake Harner, CISSP, M.S. Systems Engineering 
+Clearance Level: DOD Top Secret 
+JAKE.HARNER@GMAIL.COM 
+https://www.linkedin.com/in/jakeharner/ 
+570.486.6144 
+
+Summary: 
+• 10 years of cybersecurity experience  
+• 18 years information technology (IT) experience 
+• 5 years Management and Security Operations Center (SOC) Team Leadership experience 
+• Tools: Splunk, Splunk Enterprise Security, Mcafee Epo, CIRT, CSIRT, Automation, Incident Response, Firewall, Onboarding Log Sources, 
+Microsoft Cybersecurity Reference Architectures (MCRA), DOD Cybersecurity Reference Architecture, Security Content Engineering, Sumo 
+Logic, Performance, Dashboards, Mcafee EPO, Mitre ATTACK Framework, NIST 800-53, Kill Chain, SOC Analyst Training, Cyber Security, 
+Cybersecurity, Enterprise, SOC Architect, Gap Analysis, Security Analysis, Endpoint Security, NMAP, Wireshark, VMware, Tenable Security 
+Center, Vulnerability Scanning, Professional Service, Palo Alto Firewall, Checkpoint Firewall, Cybersecurity Strategy, Network Operations 
+Center, Bromium, Active Directory, Microsoft Azure, Bash, Cisco IOS, Linux, CentOS, Red Hat, Ubuntu, BASH, Python 
+
+Work Experience: 
+Senior Cybersecurity Engineer (Splunk Admin) (1/2024 – Current) 
+Harner Technologies LLC, Remote Work. 
+• Created Splunk Dashboards for custom requirements from the customer such as Data Flow status of all security tools. 
+• Consulted Microsoft Cybersecurity Reference Architectures (MCRA) for architecture decisions regarding cyber architecture. 
+• Troubleshooted and updated correlation searches that were too resource intensive or out of scope. 
+• Tuned Security alerts that were not useful or activated too often overwhelming the Incident Response team. 
+• Onboarded Microsoft O365 data to Splunk through the use of multiple applications, API’s and Event Hubs. 
+• Wrote new Splunk correlation searches to address the evolving cyber security threat landscape. 
+• Manually fixed corrupt bucket issues to enable searches pulling from data more than 60 days old. 
+• Devised and implemented troubleshooting solution for corrupt bucket issues on an enterprise scale. 
+• Worked with multiple teams to onboard new data to Splunk to better observe environment. 
+• Troubleshooted indexers not responding to user searches. 
+• Troubleshooted Splunk performance issues with storage and networking teams to keep Splunk running at a high performance. 
+
+Senior Security Engineer (Subject Matter Expert) (9/2020 – 9/2023) 
+Harner Technologies LLC, Remote Work. 
+• Wrote and configured custom Splunk correlation searches to search log data and improve the security posture. 
+• Tuned Splunk Security Essentials queries after integrating them into Splunk Enterprise Security Notable events for custom application to 
+the environment to improve their security posture. 
+• Created complex dashboards to monitor specific security events from common data sources such as Mcafee EPO or Symantec Endpoint 
+protection (SEP) which improves the visibility of security data for analysts and senior management. 
+• Used DOD Cybersecurity Reference Architecture document for Operational Activities guidance to improve the SOC. 
+• Created multiple custom Splunk Apps to customize the Splunk interface for the Security Engineering team to make it efficient to manage 
+and view custom dashboards and retain information during backups and reinstalls. 
+• Created calculated fields to match up log data from Mcafee EPO and the Splunk Malware Data Model. 
+• Mapped Splunk custom and standard correlation searches to the Mitre ATTACK Framework and Kill Chain which enhances both the 
+Incident Response process and knowledge sharing capabilities for the Security team.  
+• Coordinated with SOC Analysts to customize and tune Splunk Correlation Searches to improve their efficiency and the security posture. 
+• Wrote Splunk Notable Event handling guide for SOC Analysts to teach and remind the analysts the proper way to handle Splunk Notable 
+Events.  
+• Worked with multiple teams to onboard Mcafee Epolicy Orchestrator (EPO) Endpoint and DLP (Data Loss Protection) Logs to the SIEM 
+improve the visibility of the security monitoring and correlation features of Splunk. 
+• Attended 2021 Cybersecurity Symposium and gained information regarding the 2021 Cybersecurity Threat Landscape to stay up to date on 
+the Zero Trust model and Supply Chain Risk Management.  
+
+Lead Cyber Architect (4/2019 – 6/2020) 
+Harner Technologies LLC, U.S. Department of Commerce- 1401 Constitution Ave NW, Washington, DC 20230 
+• Coordinated and provided technical direction for onboarding multiple bureaus log data to the Enterprise Security Operation Center. 
+
+ 
+ 
+ 
+ 
+ 
+• Provided subject matter expertise regarding cybersecurity technology integration, enterprise security architecture optimization, and 
+incident response tool improvement, which includes the following support tasks: 
+• Reviewed cybersecurity architecture of the facility and assessed the effectiveness of security log auditing policies, log forwarding and 
+collection capabilities, and mechanisms used for log generation and collection. 
+• Provided technical recommendations for improved security logging and auditing controls. 
+• Worked directly with network infrastructure and system administrator teams to reform insufficient infrastructure and security tool 
+configurations and controls to improve the cybersecurity posture of the environment. 
+• Provided support in developing documentation required to satisfy all Confirmation Management requirements to make changes to 
+existing systems and to deploy new systems into the ESOC operational environment. 
+• Assisted with developing and improving the security logging and auditing policies for improved visibility, monitoring, and security analysis. 
+• Reviewed the incident response tools used to support digital forensics, malware detection and analysis, endpoint inspection, incident 
+management, and device imaging. 
+• Provided technical recommendations and implemented improvements to address technical and procedural insufficiencies in incident 
+response tools. 
+• Worked directly with vendor professional service engineers to ensure security products are deployed for optional efficiency and 
+performance. 
+• Assessed the architecture of the enterprise, identify potential gaps in visibility, and provide recommendations for architecture 
+improvements for increased visibility. 
+• Conducted market research and provided recommendations on alternative solutions to increase capabilities and/or lower operational 
+costs. 
+• Stayed up to date with current threats by attending classified security briefings, online intelligence briefings and multiple conferences. 
+
+SOC Lead Engineer and Architect (4/2018 – 4/2019) 
+Telesis Corporation, U.S. Department of Energy (EIA)- 1000 Independence Ave SW, Washington, DC 20585 
+• Architected/Stood Up Security Operations Center (SOC) and Network Operations Center (NOC) - After standing up 
+Tools/People/Processes I acted as Team Lead of both interfacing with other team leads and the customer. 
+• Conducted deep dive intrusion analysis – Performed packet analysis and research on threats that face the organization.    
+• Created SOC Implementation Strategy – Wrote Implementation Plan, Timeline via: Dependency Map/Gantt Chart/MS Project. 
+• Planned SOC Cybersecurity Strategy – Planned strategy for the SOC to lead Cybersecurity Incident Response (Splunk Enterprise Security, 
+Sourcefire), Endpoint Security (McAfee EPO), Vulnerability Management (Tenable), Continuous Monitoring (Splunk Enterprise Security), User 
+Behavioral Analysis (Splunk) and Log Management (Syslog). 
+• Attended Splunk Live/Splunk Analytics SIEM Workshop – Attended vendor event to create relationships and to increase knowledge with 
+Splunk and Splunk ES SIEM. 
+• Performed Gap Analysis – Discovered existing tools and processes, discovered shortcomings and provided suggestions to improve 
+organizational security. 
+• Became Proficient with New Security Tools – Researched and self-studied unfamiliar tools and became proficient to optimize and use. 
+• Wrote Justification Documents - Justified a SOC Space that is used by the SOC/NOC Team.  
+• Splunk/Splunk Enterprise Security – Optimized tool to discard low information alerts and prioritize critical and high alerts. 
+• Reviewed Resumes – Decided which candidates to have in for in-person interviews. 
+• Performed Phone Screens and In-Person Interviews – Initial screens for applicants and conducted in person interviews and decided which 
+candidates would be extended job offer. 
+• On-Boarded New SOC/NOC Employees – Introduced new employee to coworkers, worked with teams to gain access and computer 
+hardware for new employee. 
+• Planned NOC Processes – Stood up fully functional NOC using SolarWinds along with interviewing and hiring candidates. 
+• Created Presentations – Created PowerPoint presentation to senior government leadership to give progress and project status. 
+
+Sr. Cyber Security Analyst – Engineer – Strategist (11/2017 – 4/2018) 
+Tsymmetry Corporation, U.S. Department of State - E St NW, Washington, DC 20002 
+• Splunk Enterprise – Created custom dashboards, queries and alerts to monitor networks and servers. 
+• Splunk Enterprise Security (ES) SIEM – Created security dashboards, queries and alerts to keep a view of the security events and network. 
+• Splunk Professional Services – Worked with Professional Services for 5 weeks to optimize Splunk configurations in our environment. 
+• Tenable SecurityCenter - Nessus Vulnerability Scanner - Configure, and monitoring of security vulnerabilities and system configurations. 
+• Attended Development and Operations Meetings – Gave security opinions and suggestions to keep software and network secure. 
+• Dell Sonicwall Firewall (UMA) – Reviewed daily logs and completed security investigations of intrusions/attacks. 
+• Cisco ASA Firepower – Reviewed daily logs and completed security investigations of intrusions/attacks. 
+• Mcafee Vulnerabilities Scanner – Scanned and created reports for compliance and security suggestions. 
+• Created Scanning Schedule/Program - to optimize performance and keep with best practices. 
+• Provided Security Guidance to Operations, Network, and Development teams to create and implement software with best security policies. 
+
+ 
+ 
+ 
+• Evaluated and wrote Security Reports for new software and new versions to be used on department networks. 
+
+Security Operations Center - Master Engineer (8/2016 – 11/2017) 
+n-Link Corporation, U.S. Department of Commerce - 1401 Constitution Ave, Washington, D.C. 20230 
+• SolarWinds Log & Event Management (SIEM) – Installed, configured for real-time monitoring of security incidents and reports. 
+• Palo Alto Firewall – Set up, configure, and transfer Checkpoint FW config with real-time monitoring of security incidents and reports. 
+• Checkpoint Firewall – Configured monitoring and Creation of rules for both incoming and outgoing traffic to core firewall. 
+• Tenable SecurityCenter - Nessus Vulnerability Scanner 5.5 + 4.8.1 – Install, configure, and monitoring of security vulnerabilities.  
+• Bromium Virtualization-based security - Management of policy and end clients. 
+• Belarc BelManage System Management –Install and configure daily vulnerability and software/hardware version tracking.  
+• McAfee Epolicy Orchestrator (EPO) - Management of Mcafee Antivirus programs-agent, virus scan, definitions. 
+• Python and Bash Scripting – Automating repetitive tasks to make cyber security decisions more efficient and effective. 
+• VMware ESXI Install/Configure ESXI and VMs (Linux Server and Windows Server) including updating firmware and bios. 
+• Damballa – Monitoring Advanced threat protection for enterprises, C&C and data exfiltration protection.  
+• Stealth Watch - Monitor and evaluate details on network alarms and traffic analysis. 
+• Active Directory – Created/Managed Domain Groups and Users. 
+• PDQ Deploy/Inventory – Install/configure Remote patch install/removal, fix file vulnerabilities, system administration. 
+• Windows Server Update Services (WSUS) - Administration adding computers, changing groups and policies. 
+• SQL Server Management Studio –Install/Configure - Run queries, update database schema.  
+• HPE ProLiant DL380 Gen9 Server –Install/Configure – Set up RAID Levels and networking. 
+• CISCO and DD-WRT VPN Client and Server – GRE, PPTP, L2TP. 
+• Ivanti Patch (Shavlik) – Evaluated, Installed, Configured solution for needed software patch and update scanner and distribution.  
+• SOPs and Runbooks – Created runbooks and standard operating procedures for daily tasks ranging from creating Tenable Nessus scans 
+through firewall intrusions and researching offending ips. 
+• Gap Analysis – Evaluated current system and tools for improvement, analysis of alternatives, testing and recommendations. 
+
+Cyber Security Engineer (6/2015 – 6/2016) 
+Omni Technologies, LLC - US Army - 6006 Combat Drive, Aberdeen Proving Ground, MD 21005  
+• McAfee Epolicy Orchestrator (EPO) - Set up and manage endpoint security on workstations and servers on Windows systems.  
+• McAfee Agent systems – Set up and manage Centos Linux and Windows endpoints. 
+• DISA HBSS, Security Manager and Nessus scanner –Install, configure and operate HBSS on test systems. 
+• SCC Automated Vulnerability scanner –Install and Configure well as manual verification checks for vulnerabilities of Linux Systems. 
+• Linux Administration - Created and managed user accounts and file permissions for users. 
+• Worked with software vendors to close security controls and document process. 
+
+Computer Security Scientist (4/2015 - 6/2015) 
+Leidos Corporation – US Army 6002 Combat Drive, Aberdeen Proving Ground, MD 21005  
+• Microsoft Azure - Created and managed cloud Virtual Machines. 
+• Updated and maintained lab environment documentation for ATO accreditation. 
+• Attended daily meetings of Agile Development model. 
+• Managed accounts for Terminal Services. 
+
+Computer Scientist/Network Engineer (11/2008 - 4/2015) 
+US Army Aberdeen Test Center - 400 Colleran Road, Aberdeen Proving Ground, MD 21005 
+• Coordinated/Managed test teams through check out and problem solving during NIE (Network Integration Event) 13.2 test event. 
+• Network Worthiness Accreditation – Scan, test and fill out documentation for completion for Army test equipment. 
+• Managed and engineered the process of collecting network data from Army Test Systems. 
+• Tripwire – Install and manage enterprise intrusion detection systems. 
+• Installed and manage system monitoring software during a network test. 
+• DISA STIG (Security Technical Implementation Guide) Hardened Linux and Windows server and client Operating Systems. 
+• Designed and managed Virtualized test environment for proprietary network data collection. 
+• CISCO IOS - Configured Cisco 2960 switches needed to capture network traffic. 
+• Software integration and test of developmental software at common control node at various locations 
+• Designed and implemented local security protocols for securing Windows and Linux operating systems and software. 
+• Hardware Testing at Electromagnetic Interface lab radio frequency. 
+• IA CCB creating and implementing policy changes. 
+• Bash – Server task automation and scripting of user tasks. 
+• Wrote system documentation, inventory during certification/accreditation process for a new system/network for DIACAP.  
+
+ 
+ 
+ 
+ 
+ 
+System Administrator/Engineer (11/2008 - 6/2009) 
+3D Research Corp – US Army Aberdeen Test Center - Building 120, Aberdeen Proving Ground, MD  
+• IA Team Lead creating and implementing policy issues. 
+• Supported system documentation, inventory during C&A process for a new system/network to meet DIACAP requirements. 
+• DISA (Defense Information Systems Agency) STIG (Security Technical Implementation Guide) Linux and Windows (Server and Client). 
+• Monitored user access and periodically reviewed logs. 
+• Windows and Red Hat Host Based Firewalls - configured inbound/ output rules. 
+
+Education:  
+M.S. Systems Engineering, Johns Hopkins University, Baltimore, MD United States 
+B.A. Computer Science, Susquehanna University, Selinsgrove, PA United States 
+
+Job Related Training/Certifications: 
+• (ISC)2 Certified Information Systems Security Professional (Certification) 
+• CompTIA Security+ (Certification)  
+• Certified Cloud Security Professional (CCSP) Training 
+• Splunk Certified Admin (Certification) 
+• Splunk Certified Power User (Certification)  
+• Splunk Power Certified User (Certification)  
+• Splunk “Getting Data into Splunk” 
+• Splunk “Working with Time” 
+• Splunk Data Models 
+• Splunk “Using Fields” 
+• Splunk Fundamentals I 
+• Splunk Fundamentals II   
+• Splunk Data Administration 
+
+• Splunk Using Splunk Enterprise Security 
+• Administering Splunk Enterprise 
+• Sumo Logic Fundamentals (Certification) 
+• Sumo Logic Administration (Certification) 
+• Sumo Logic Cloud Security and Monitoring (Certification) 
+• Sumo Logic Cloud Fundamentals (Certification) 
+• Sumo Logic Cloud SIEM Administration (Certification) 
+• Sumo Logics Metrics Mastery (Certification) 
+• Sumo Logic Search Mastery (Certification) 
+• Cisco Certified Entry Level Technician (Certification) 
+• Red Hat Certified Technician (Certification) 
+• Cisco CCNA CCENT CCDA (CCNA Security) Boot Camp  
+
+Conferences: 
+• Splunk .conf 2019 
+• Boss of the SOC 2019 
+• NIST Cybersecurity Risk Management Conference  • .govCAR Technical Annex Training 
+
+• Jacke Classified Cyber Security Briefing 
+• Department of Commerce Annual Cyber Security Awareness Symposium and Expo 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

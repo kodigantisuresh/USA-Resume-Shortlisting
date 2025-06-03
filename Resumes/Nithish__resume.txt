@@ -1,0 +1,208 @@
+Nithish Patibandla                              Sr  DevSecOps Engineer
+Ph:4695922536
+Email: patibandlanithish23@gmail.com
+Around 11+ years of experience  focused on Automation of Build, Deployment, and Environment Management areas by implementing CI/CD pipelines, Configuration Management, Containerization and Orchestration, and monitoring to help teams deliver a better, reliable Production environments
+Experience in IT comprising of Designing, Development, Integration of DevOps tools with Cloud platforms, Configuration Management, Build and Release, Continuous Integration/Deployment, Delivery management, system administration, and Cloud Migration.
+Expertise in Systems Administration, Upgrades, Automation, Performance Tuning, Capacity Planning, Contingency Planning, Disaster Recovery and Fault Tolerant Planning in WINDOWS and Linux Environments.
+Good Experience in automation and securing the infrastructure on AWS using Cloud Formation, Terraform and AWS Lambda and building CI/CD on AWS environment using Jenkins Pipeline.
+Technical expertise in facilitating Cloud Infrastructure Management for entire company’s set-up; experienced in Amazon Web Services like Elastic Cloud Compute (EC2), Auto Scaling, AWS Simple Storage Services (S3), Glacier, Elastic Block Storage (EBS), Virtual Private Cloud (VPC), Route 53, Identity and Access Management (IAM), Amazon RDS, Cloud Watch, Cloud Formation, SQS.
+Wrote python scripts to manage AWS resources from API calls using BOTO SDK and worked with AWS CLI.
+Wrote Terraform scripts to launch AWS instances and used Ansible to manage web applications, configuration files, used mount points and packages.
+Deployed Azure IaaS virtual machines (VMs) and Cloud services (PaaS role instances) into secure VNets and subnets.
+Hands-on experience in Azure compute services, Azure Web apps, Azure Storage, Azure Networking, and Azure Identity & Access Management.
+Administrating and supporting Azure Kubernetes infrastructure, ensuring it is secure, resilient and performance and responsible for complete DevOps activities and coordinating with development team.
+Implemented monitoring with Grafana visualization infrastructure in Azure Kubernetes cluster.
+Configuration Management using Ansible (writing ad-hoc queries and play books).
+Worked with Ansible Playbooks for virtual and physical instance provisioning, Configuration management, patching, and software deployment.
+Implemented Terraform modules for deployment of various applications across multiple cloud providers and managing infrastructure.
+Hands-on experience building Terraform modules from scratch to automate the provisioning of multi-cloud infrastructure across GCP and Azure, focusing on secure, scalable, and policy-compliant deployments.
+Proficient in developing Terraform-based CI workflows integrated with GitHub Actions, enabling infrastructure as code across hybrid environments with consistent state management and reusable modules.
+Worked extensively on container-based deployment models using Kubernetes and Helm, securing microservices with certificate-based authentication and injecting secrets from HashiCorp Vault.
+Implemented workload identity federation in GCP to remove dependency on long-lived service account keys and streamline cross-cloud authentication.
+Managed access controls using Azure Entra ID, defining conditional access policies and role assignments for GCP, Azure, and on-prem environments through automated pipelines.
+Built GitHub Actions pipelines for end-to-end automation including Terraform deployments, policy testing, security scans, and secret rotation using Vault integrations.
+Experience managing hybrid environments with connectivity across GCP, Azure, and on-premises using VMC2 and other cloud-native routing mechanisms.
+Developed and enforced secure software supply chain workflows with SBOM generation, image provenance validation, and policy-as-code frameworks embedded in CI/CD.
+Extensively used Python and Go for scripting repeatable deployment logic, secure token exchange, and automation tasks across CI workflows and platform provisioning.
+Created Bash scripts for operational automation, from log ingestion and system health checks to compliance report generation and alert enrichment in cloud-native tools.
+Designed and implemented secure secret injection strategies using Vault for application credentials, certs, and tokens across containerized and serverless workloads.
+Experience working with Kubernetes clusters to configure ingress/egress policies, automate deployments via Helm, and monitor resource utilization across namespaces.
+Integrated GitHub repositories with policy gates, secret scanning, and required pull request reviews to harden CI pipelines and support compliance initiatives.
+Authored Terraform Sentinel policies to enforce tagging, network isolation, and storage encryption before allowing infrastructure promotion to higher environments.
+Created dynamic Confluence documentation detailing platform architecture, onboarding procedures, compliance workflows, and incident response steps.
+Implemented Azure and GCP-native logging and monitoring solutions using Log Analytics, Stackdriver, and custom exporters to ensure visibility and early anomaly detection.
+Performed certificate-based authentication configuration for service-to-service communication, using Vault PKI engine and automated cert renewal pipelines.
+Built reusable CI/CD templates using GitHub Actions, Terraform, and Bash to standardize deployments across business units and reduce manual variance.
+Participated in secure infrastructure reviews to align all deployments with governance frameworks, logging mandates, and compliance checks built into deployment pipelines.
+Worked cross-functionally with developers, SREs, and platform engineers to integrate DevSecOps practices, automate compliance guardrails, and support high-assurance deployments in a regulated environment.
+Bachelor's in Computer Science and Engineering               Acharya Nagarjuna University 2007-2011
+Certified in Microsoft Azure Administrator Associate.
+Certified in Kubernetes Administrator.
+Certified in AWS Solution Architect Associate
+Client: 	Cetera Financial, Dallas,TX
+Role: Sr.  DevSeOps Engineer | May 2022 - Present
+Responsibilities:
+Configured Azure Blob Storage with versioning and lifecycle policies to efficiently manage data backup, retention, and archival processes.
+Managed DNS records using Azure DNS and configured custom domain names for Azure services, ensuring proper resolution and accessibility.
+Executed cloud migration strategies, defining delivery architectures, creating migration plans, and implementing orchestration plans for seamless transition to Azure. Proficient in creating and executing migration run books.
+Designed AKS clusters using Terraform custom modules for various environments, including DEV, Stage, and Prod.
+Configured Azure Automation to schedule and automate routine tasks, such as snapshots of Azure Managed Disks and other maintenance activities.
+Implemented Azure Monitor and Azure Log Analytics for log analytics, application monitoring, and performance tuning.
+Implemented Bluegreen Deployment, in the production, and Managed Kubernetes cluster in the rollback and rollouts methods in the deployment strategies.
+Involved in the integration of AKS into Azure DevOps pipelines, automating the CI/CD process for containerized applications.
+Utilized Azure Kubernetes Service (AKS) to orchestrate the deployment of containerized applications, streamlining configuration management and ensuring scalable and reliable production environments.
+Worked with Helm Package manager in creating custom charts as per application requirement and deployed them in Kubernetes Cluster.
+Configured Prometheus and Grafana for comprehensive cluster monitoring, creating custom dashboards to visualize key metrics and performance indicators.
+Developed custom alerts and notifications based on CPU or memory usage thresholds, error rates, and latency for proactive issue identification.
+Developed and executed upgrade plans, conducting thorough testing and rollback procedures for seamless transitions.
+Implemented load balancing strategies within the Ingress controller to distribute traffic evenly across backend services for Kubernetes clusters.
+Architected secure Azure landing zones with centralized identity control by defining fine-grained RBAC policies and conditional access, ensuring consistent enforcement of security rules across multiple business units.
+Implemented Azure AD integration with on-prem identity providers, establishing MFA, PIM, and identity protection workflows to reduce lateral movement risks and secure privileged access paths in hybrid environments.
+Developed infrastructure-as-code using Bicep, ARM templates, and Terraform to provision compliant Azure resources while embedding Azure Policy, Blueprints, and Key Vault for automated governance and secret management.
+Secured Azure workloads by defining and enforcing NSGs, ASGs, and firewall rules, and enabled private connectivity through ExpressRoute and VPN tunnels for trusted partner and branch integration.
+Built automated workflows in GitHub Actions and Azure DevOps for CI/CD pipelines, integrating secure artifact scanning, key vault secret injection, and compliance gates that align with internal policies and controls.
+Worked with Microsoft Sentinel to build robust detection rules, created custom dashboards for SOC teams, and used Logic Apps to automate incident response across identity, data, and network layers
+Supported multiple Agile teams by embedding security checks into their development lifecycle, integrating Azure Defender alerts, vulnerability scans, and risk scores directly into their sprints and standups.
+Led remediation efforts on identity exposure issues, access overprovisioning, and insecure configurations, using insights from SIEM/SOAR tools, Azure Security Center, and threat modeling sessions.
+Continuously monitored security posture across subscriptions by aligning asset tagging, diagnostic settings, and log forwarding to central Sentinel workspace, covering applications, infrastructure, and networking layers.
+Used Terraform to codify compliance standards, enforce allowed resource types, and build reusable modules with parameter validation, while maintaining a consistent deployment experience across test and production.
+Configured Azure Monitor with custom metrics collection, integrated with Prometheus for container insights, and built Grafana visualizations to reflect real-time risk posture and anomaly detection.
+Maintained role-based identity controls across financial applications, reducing attack surface by enforcing time-bound access via PIM and auditing access logs using Azure AD logs and Sentinel queries.
+Used Azure Key Vault to store, rotate, and audit secrets, leveraging RBAC for fine-grained access, and orchestrated key rollovers as part of deployment pipelines to reduce key exposure and increase automation
+Created technical documentation, including risk assessments, threat modeling visuals, security architecture diagrams, and step-by-step remediation guides, customized for both technical and compliance teams.
+Configured and audited NSGs, VPN gateways, and ExpressRoute routing for multi-region environments, validating segmentation through manual reviews and automated network flow analysis.
+Implemented security baselines aligned with NIST and ISO frameworks, and led internal reviews to ensure audit readiness by verifying log retention, identity governance, and resource configuration policies.
+Tuned Microsoft Defender for Cloud to minimize alert fatigue and customized its recommendations to align with financial compliance requirements, including asset classification and data protection controls.
+Created structured workflows in Azure Logic Apps to handle high-priority events, such as privilege escalations and unauthorized access attempts, triggering alerts and automated mitigations.
+Participated in security standups to review Sentinel incident queues, prioritize critical findings, and collaborate with platform engineers to implement preventive and detective controls across the Azure estate.
+Utilized PowerShell scripts for access audits, resource tagging, and identity cleanup tasks, while also developing automation modules to support asset discovery and misconfiguration tracking.
+Client: CSX, Dallas, TX
+Role:  Cloud DevSeOps Automation Engineer |      Feb 2020 – Apr 2022
+Responsibilities	:
+Worked Extensively on Configuring and Provisioning of Virtual Machines, Storage accounts, App Services, Key vault, Virtual Networks, Azure SQL Database, Azure Search, Azure Data Lake, Azure Data Factory, Azure Blob Storage, Azure Service Bus, Function Apps, Application Insights, Express Route.
+Have Worked on Setting up Azure Monitor Dashboard for various Azure Services by enabling Diagnostic settings and writing queries in Log Analytics Workspace to send the logs to Azure storage accounts and stream the logs to Azure Event Hubs.
+Data was transferred from On-Premises SQL Database servers to Azure SQL Database servers via Azure Data Factory Pipelines created with the Azure Data Factory copy tool and Self-Hosted Runtimes.
+Used Azure Kubernetes Service (AKS) to deploy a managed Kubernetes cluster in Azure and created an AKS cluster in the Azure portal using template-driven deployment options using Azure Resource Manager (ARM) templates
+Used Azure Kubernetes Service for Implementing Jenkins pipelines into Azure pipelines to drive all microservices builds out to the Docker registry and then deployed to Kubernetes, Created Pods, and managed them.
+Built data pipelines using Azure Data Factory, Azure Databricks and loaded the data to Azure Data Lake, Azure SQL Database.
+Administrating and supporting c Azure Kubernetes infrastructure, ensuring it is secure, resilient and performance and responsible for complete DevOps activities and coordinating with development team.
+Worked as Kubernetes Administrator, involved in configuration for web apps, Azure App services, Azure Application insights, Azure Application gateway, Azure DNS, Azure traffic manager, App services.
+Built secure networking environments by deploying custom VNET topologies and defining route tables, NSGs, and site-to-site VPN tunnels, ensuring encrypted hybrid connectivity across Azure and datacenter workloads.
+Wrote custom PowerShell modules and parameterized scripts to manage Azure AD identities, control permissions via RBAC, and enforce identity protection baselines across multiple resource groups.
+Used Terraform with remote state locking and modules to deploy infrastructure consistently across staging and production environments, integrating Azure Policy and Blueprints for governance-by-design.
+Managed AKS deployments with Helm, streamlining the rollout of financial microservices, securing pod communication, and integrating Key Vault secrets and managed identities directly into workloads.
+Applied fine-grained role assignments via PIM to limit privilege exposure during operational escalations, while configuring audit logging for every role activation using native Azure AD monitoring tools.
+Deployed NGINX Ingress controllers into AKS clusters and configured TLS certificates, app gateway routing, and WAF policies to defend applications from unauthorized access and common attack vectors.
+Designed repeatable deployment workflows using GitHub Actions to automate infrastructure updates, inject secrets via Key Vault, scan images, and validate compliance before pushing to production.
+Leveraged Azure Defender and Sentinel to detect anomalies across hybrid resources, correlating suspicious behavior and generating automated incident workflows using Logic Apps.
+Enabled conditional access rules in Azure AD for specific user groups based on risk level, location, and device compliance, aligning authentication controls with internal zero-trust strategy.
+Deployed and monitored container workloads in AKS, orchestrating updates through Helm releases, collecting runtime metrics via Prometheus, and visualizing trends using Grafana dashboards tailored for security ops.
+Enabled encryption at rest and in transit for all data services, integrating Azure SQL, blob storage, and shared files with customer-managed keys stored in Key Vault and rotated through automation scripts.
+Built ARM and Bicep templates to manage networking, compute, and storage layers, embedding compliance checks during deployment to maintain alignment with NIST and GDPR requirements.
+Deployed Azure Bastion as a hardened access point to internal subnets, reducing public endpoint exposure and simplifying just-in-time access to critical VMs and data services.
+Used Azure Monitor and Log Analytics Workspace to consolidate logs across AKS, storage, and VMs, applying Kusto queries to detect unusual patterns and generate alerts to SOC pipelines.
+Integrated Terraform Sentinel to enforce organizational policy on provisioning behavior, such as enforcing use of private endpoints, logging standards, and network segmentation.
+Tuned threat detection signals in Microsoft Defender for Identity and Microsoft Defender for Cloud, reducing false positives and customizing policies to reflect application-level usage.
+Automated backup and DR configuration for financial systems using Azure Backup and Recovery Services Vault, with runbooks triggered via GitHub Actions and monitored through Azure Monitor alerts.
+Worked closely with development teams to containerize services, injecting secrets securely from Key Vault, and aligning build pipelines with DevSecOps standards for risk-aware deployments.
+Created security documentation and confluence pages outlining authentication flow, encryption practices, incident escalation paths, and supported audit teams during internal reviews.
+Conducted network isolation exercises using NSGs and UDRs, simulating lateral movement and verifying segmentation between environments, supporting defense-in-depth design principles
+Client:	Humana, Louisville, KY
+Role: DevOps Engineer | Dec 2017 – Jan 2020
+Working on multiple AWS instances by setting services like Route53, SES, SQS, SNS and created and administered DNS system using Route53.
+Provisioned the highly available EC2 instances using Terraform and Cloud Formation and wrote new plugins to support new functionality in Terraform.
+Managed AWS infrastructure as code using Terraform.
+Configured and maintained Elastic Beanstalk environment settings to ensure optimal performance and cost efficiency, including instance types, auto-scaling policies, and load balancer settings.
+Automated application deployments to AWS Elastic Beanstalk using CI/CD pipelines, integrating with Jenkins to streamline development workflows.
+Set up and maintained Jenkins master and slave architecture to distribute builds, tests, and deployments across multiple environments, optimizing resource usage and speeding up execution times.
+Researched and developed scalable Linux deployments on AWS via CoreOS and Docker and used Docker Compose to develop dependent instances to be deployed in the EC2 platform.
+Used Terraform in AWS VPC to automatically setup and modify settings by interfacing with control layer.
+Used Terraform for creating stacks of VPCs, ELBs, Security groups, SQS queues, S3 buckets in AWS and updated the Terraform Scripts based on the requirement on a regular basis.
+Worked extensively with Terraform and wrapped it Terragrunt and managed the back-end state in S3 Bucket
+Worked on AWS Cloud Watch for monitoring the application infrastructure and used AWS email services for notifying & configured S3 versioning and lifecycle policies to and backup files and archive files in Glacier.
+Worked on migrating the on-premises application from its physical Storage Racks to AWS by using EC2, S3.
+Created custom alerts and notifications in ELK based CPU or memory usage thresholds, error rates, and latency for EKS Kubernetes clusters.
+Used AWS Elastic kubernetes Service (EKS) to deploy a managed Kubernetes cluster in Azure and created an AKS cluster using Terraform custom modules for different envoronments like DEV,Stage and Prod.
+Implemented Role-Based Access Control (RBAC) within Kubernetes, defining granular permissions to control access to cluster resources.
+Served application data using Lambda functions to store data in NOSQL database Dynamo DB. Configured REST API's using API Gateway that hit lambda which in turn invokes lambdas to do necessary operations.
+Installed Redshift on AWS and imported the legacy data from Oracle to Redshift.  Implemented and maintained Ansible configuration management spanning several environments in VMware and AWS cloud.
+Participated in GitLab POC and migrated all repos from GitHub to GitLab.
+Developed custom GitLab CI/CD scripts to automate routine tasks, such as dependencies update, database migrations, and notifications, streamlining development workflows.
+Configured GitLab Runner on multiple platforms, optimizing executor configurations for efficient pipeline execution and reducing build times.
+Worked on Groovy Scripting for automating build & Deployment process.
+Experienced with release engineering, configuration management in Tomcat web application environment and worked on issues like heap, non-heap memory and designed application for Mobile UI & responsive websites.
+Automated data upload, download, and synchronization processes using AWS CLI, SDKs, and S3 APIs.
+Utilized S3 Cross-Region Replication (CRR) to replicate data across multiple geographical locations.
+Developed custom OpenShift templates to deploy the applications and to create the OpenShift objects build, deployment configs, services, routes, and persistent volumes.
+Troubleshoot OpenShift containers for related issues like crash loop back off, pod restarts, out of memory issues and lack of CPU.
+Configured CloudWatch alarms and dashboards to monitor key performance indicators (KPIs) and operational health, facilitating proactive issue detection and resolution to maintain high availability and performance.
+Client: Axa Insurance, Bangalore, India
+Role: Build Engineer | Oct 2014—Dec 2016
+Worked with AWS services like Glacier, ELB (Elastic Load Balancer), RDS, SNS, SWF, Lambda, IAM and hands on experience with Amazon Web Services provision.
+Worked on managing DNS zones using Route 53 and gave public DNS names to elastic load balancers.
+Worked on Elastic Beans talk for quick deployment of services like EC2 Instances, Load Balancer and databases on AWS environment.
+Worked on Multiple AWS instances, set the security groups, Elastic Load Balancer (ELB) and AMIs, Auto-scaling to design cost effective, fault tolerant and highly available systems.
+Integrate with Jenkins for CI/CD pipeline with GIT.
+Created build and deployment jobs in Jenkins for various components.
+Worked on creating python scripts to deploy applications from Jenkins to remote server.
+Configured, installed and maintained Nginx web server.
+Worked on version control tools like GIT, and software build tools like Maven to enable continuous delivery into several environments of development, test and production.
+Able to create Python and Bash scripts for system administration and automation like transferring files among servers.
+Implemented and maintained the monitoring and alerting of corporate servers/storage using AWS CloudWatch.
+Developed scripts to monitor JVM Heap Size, JMS Messages in the Destination queues in the production environment.
+Creating shell scripts to automate the installation procedures for JBoss servers.
+Configuring and Versioning the s3 buckets and moving data to the amazon Glacier by creating the life cycle policies.
+Scheduled meetings with Business Analysts and the programmers to resolve the high complex issues and interpreted log files to locate and solve application server problems.
+Managing the Auto Scaling groups, Elastic Load Balancers and EC2 Snapshots for high availability and fault tolerance.
+Utilized and worked on JIRA to collaborate with the other team members to keep track of the issues.
+Configured and maintained GitHub organizations, teams, to enable effective collaboration between multiple teams while ensuring security and compliance.
+Managing repositories and branches on GitHub and Collaborating with developers to resolve merge conflicts.
+Client: LinceSoft - Hyderabad, India
+Role: QA Automation Engineer | Aug 2012 - Sept 2014
+Involved in test plan design, analysis and testing of the web application.
+Involved in API Automation of Rest and soap webservices using Java automation scripts.
+Used SQL queries to perform backend testing on the database.
+Performed back-end testing using SQL queries to validate the data in the back-end SQL Server
+Integrated Selenium automation regression test suite in Jenkins build pipeline
+Involved in testing Web services and XML using SOAP UI tool and Postman.
+Extensively Worked on Tools like Soap UI for testing various Application Test Cases to identify if the requests are hitting the business tests.
+Developed full automated test suite integration with Jenkins and GitHub.
+Involved in QA verification (ETL) that the data warehousing system is ready to go to production.
+Responsible for analyzing and optimizing testing workflows to improve QA efficiency.
+Designed and executed comprehensive API testing strategies, employing advanced tools for automated testing to ensure functionality, reliability, and security.
+Conducted application performance testing to identify and address potential issues under various conditions, ensuring optimal performance and scalability.
+PROFESSIONAL SUMMARY
+EDUCATION
+CERTIFICATIONS
+TECHNICAL SKILLS
+AWS Services
+RDS, EC2, VPC, IAM, Cloud Formation, EBS, S3, ELB, Auto Scaling, Cloud Trial, SQS, SNS, SWF, Cloud Watch.
+Cloud Platforms
+Microsoft Azure, Aws Cloud.
+Azure Services
+App Services, Key vault, function app, Blob storage, Azure Active Directory (Azure AD), Service Bus, Azure Container Registry (ACR) and Azure Kubernetes service (AKS), Azure SQL, Azure Cosmos DB.
+Version Control Tools
+GIT, Bit bucket
+CI/CD
+Jenkins, Azure Pipelines
+Configuration & Automation Tools
+Ansible
+Container Platforms
+Docker, Kubernetes, Open Shift.
+Monitoring Tools
+Nagios, Splunk
+Languages
+Python, Shell scripting, Java, AWS Cloud
+Artifactory
+Jfrog and Nexus
+Web Servers
+Nginx
+Operating Systems
+Microsoft Windows XP/ 2000, Linux, UNIX.
+Code Scanning
+SonarQube, Jfrog X ray, ECR Inspector
+Databases
+RDS, Cosmos DB, My SQL DB.
+Logging
+Cloud Watch, Cloud Trail, Azure App Insights, Azure Monitor
+PROFESSIONAL EXPERIENCE
